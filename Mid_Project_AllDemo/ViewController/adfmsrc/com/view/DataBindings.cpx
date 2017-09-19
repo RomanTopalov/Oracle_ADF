@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Application xmlns="http://xmlns.oracle.com/adfm/application" version="12.2.1.12.2" id="DataBindings"
+             SeparateXMLFiles="false" Package="com.view" ClientType="Generic">
+  <definitionFactories>
+    <factory nameSpace="http://xmlns.oracle.com/adfm/dvt"
+             className="oracle.adfinternal.view.faces.dvt.model.binding.FacesBindingFactory"/>
+    <factory nameSpace="http://xmlns.oracle.com/adf/controller/binding"
+             className="oracle.adf.controller.internal.binding.TaskFlowBindingDefFactoryImpl"/>
+    <dtfactory className="oracle.adf.controller.internal.dtrt.binding.BindingDTObjectFactory"/>
+  </definitionFactories>
+  <pageMap>
+    <page path="/essential-body.jsff" usageId="com_view_essential_bodyPageDef"/>
+    <page path="/index.jspx" usageId="com_view_indexPageDef"/>
+    <page path="/dataEssential-v.jsff" usageId="com_view_dataEssential_vPageDef"/>
+    <page path="/resultsEssential-v.jsff" usageId="com_view_resultsEssential_vPageDef"/>
+    <page path="/bindingInternals_v.jsff" usageId="com_view_bindingInternals_vPageDef"/>
+    <page path="/business-component-v.jsff" usageId="com_view_business_component_vPageDef"/>
+    <page path="/task-flow-v.jsff" usageId="com_view_task_flow_vPageDef"/>
+    <page path="/javaScript-v.jsff" usageId="com_view_javaScript_vPageDef"/>
+  </pageMap>
+  <pageDefinitionUsages>
+    <page id="com_view_essential_bodyPageDef" path="com.view.pageDefs.essential_bodyPageDef"/>
+    <page id="com_view_indexPageDef" path="com.view.pageDefs.indexPageDef"/>
+    <page id="com_view_dataEssential_vPageDef" path="com.view.pageDefs.dataEssential_vPageDef"/>
+    <page id="com_view_resultsEssential_vPageDef" path="com.view.pageDefs.resultsEssential_vPageDef"/>
+    <page id="com_view_bindingInternals_vPageDef" path="com.view.pageDefs.bindingInternals_vPageDef"/>
+    <page id="com_view_business_component_vPageDef" path="com.view.pageDefs.business_component_vPageDef"/>
+    <page id="com_view_task_flow_vPageDef" path="com.view.pageDefs.task_flow_vPageDef"/>
+    <page id="com_view_javaScript_vPageDef" path="com.view.pageDefs.javaScript_vPageDef"/>
+  </pageDefinitionUsages>
+  <dataControlUsages>
+    <dc id="TextEssentialExample" path="com.model.TextEssentialExample"/>
+    <BC4JDataControl id="AppModuleDataControl" Package="com.model"
+                     FactoryClass="oracle.adf.model.bc4j.DataControlFactoryImpl" SupportsTransactions="true"
+                     SupportsFindMode="true" SupportsRangesize="true" SupportsResetState="true"
+                     SupportsSortCollection="true" Configuration="AppModuleLocal" syncMode="Immediate"
+                     xmlns="http://xmlns.oracle.com/adfm/datacontrol"/>
+  </dataControlUsages>
+</Application>

@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<jsp:root xmlns:jsp="http://java.sun.com/JSP/Page" version="2.1" xmlns:af="http://xmlns.oracle.com/adf/faces/rich"
+          xmlns:f="http://java.sun.com/jsf/core">
+  <af:group id="g1">
+    <af:button text="Go to Welcome Page" id="b1" action="#{pageFlowScope.ButtonActionBean.goTo_IndexPage}"/>
+   </af:group>
+  <af:panelStretchLayout id="psl1" inlineStyle="width:815px; height:463px;">
+    <f:facet name="start"/>
+    <f:facet name="end"/>
+    <f:facet name="top"/>
+    <f:facet name="bottom"/>
+    <f:facet name="center"/>
+  </af:panelStretchLayout>
+</jsp:root>

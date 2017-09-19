@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="windows-1251" ?>
+<adfc-config xmlns="http://xmlns.oracle.com/adf/controller" version="1.2">
+  <task-flow-definition id="Task-Flow-tf">
+    <default-activity>initialization_Task_Flow</default-activity>
+    <data-control-scope>
+      <shared/>
+    </data-control-scope>
+    <managed-bean id="__3">
+      <managed-bean-name>InitializationBean</managed-bean-name>
+      <managed-bean-class>com.view.InitializationBean</managed-bean-class>
+      <managed-bean-scope>pageFlow</managed-bean-scope>
+    </managed-bean>
+    <managed-bean id="__4">
+      <managed-bean-name>ButtonActionBean</managed-bean-name>
+      <managed-bean-class>com.view.ButtonActionBean</managed-bean-class>
+      <managed-bean-scope>pageFlow</managed-bean-scope>
+    </managed-bean>
+    <method-call id="initialization_Task_Flow">
+      <method>#{pageFlowScope.InitializationBean.initialization_Task_Flow}</method>
+      <outcome>
+        <fixed-outcome>continue</fixed-outcome>
+      </outcome>
+    </method-call>
+    <view id="task-flow-v">
+      <page>/task-flow-v.jsff</page>
+    </view>
+    <task-flow-return id="ReturnToFirstPage">
+      <outcome>
+        <name>ReturnToFirstPage</name>
+      </outcome>
+    </task-flow-return>
+    <control-flow-rule id="__1">
+      <from-activity-id>initialization_Task_Flow</from-activity-id>
+      <control-flow-case id="__2">
+        <from-outcome>continue</from-outcome>
+        <to-activity-id>task-flow-v</to-activity-id>
+      </control-flow-case>
+    </control-flow-rule>
+    <control-flow-rule id="__5">
+      <from-activity-id>*</from-activity-id>
+      <control-flow-case id="__6">
+        <from-outcome>goToFirstPage</from-outcome>
+        <to-activity-id>ReturnToFirstPage</to-activity-id>
+      </control-flow-case>
+    </control-flow-rule>
+    <use-page-fragments/>
+  </task-flow-definition>
+</adfc-config>

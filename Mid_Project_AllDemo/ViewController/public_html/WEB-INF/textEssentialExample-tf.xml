@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="windows-1251" ?>
+<adfc-config xmlns="http://xmlns.oracle.com/adf/controller" version="1.2">
+  <task-flow-definition id="textEssentialExample-tf">
+    <default-activity>welcomeEssential-v</default-activity>
+    <data-control-scope>
+      <shared/>
+    </data-control-scope>
+    <view id="welcomeEssential-v">
+      <page>/welcomeEssential-v.jsff</page>
+      <train-stop/>
+    </view>
+    <view id="dataEssential-v">
+      <page>/dataEssential-v.jsff</page>
+      <train-stop/>
+    </view>
+    <view id="resultsEssential-v">
+      <page>/resultsEssential-v.jsff</page>
+      <train-stop/>
+    </view>
+    <train/>
+    <use-page-fragments/>
+  </task-flow-definition>
+</adfc-config>

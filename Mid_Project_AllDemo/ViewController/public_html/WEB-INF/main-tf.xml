@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="windows-1251" ?>
+<adfc-config xmlns="http://xmlns.oracle.com/adf/controller" version="1.2">
+  <task-flow-definition id="main-tf">
+    <default-activity>index</default-activity>
+    <data-control-scope>
+      <shared/>
+    </data-control-scope>
+    <input-parameter-definition id="__11">
+      <name>inOperationType</name>
+      <value>#{pageFlowScope.inOperationType}</value>
+      <class>java.lang.String</class>
+    </input-parameter-definition>
+    <managed-bean id="__9">
+      <managed-bean-name>ButtonActionBean</managed-bean-name>
+      <managed-bean-class>com.view.ButtonActionBean</managed-bean-class>
+      <managed-bean-scope>pageFlow</managed-bean-scope>
+    </managed-bean>
+    <managed-bean id="__10">
+      <managed-bean-name>InitializationBean</managed-bean-name>
+      <managed-bean-class>com.view.InitializationBean</managed-bean-class>
+      <managed-bean-scope>pageFlow</managed-bean-scope>
+    </managed-bean>
+    <view id="index">
+      <page>/index.jsff</page>
+    </view>
+    <router id="router">
+      <case id="__12">
+        <expression>#{pageFlowScope.inOperationType=='essential'}</expression>
+        <outcome>essential</outcome>
+      </case>
+      <case id="__13">
+        <expression>#{pageFlowScope.inOperationType=='binding-internals'}</expression>
+        <outcome>binding-internals</outcome>
+      </case>
+      <case id="__15">
+        <expression>#{pageFlowScope.inOperationType=='business-component'}</expression>
+        <outcome>business-component</outcome>
+      </case>
+      <case id="__6">
+        <expression>#{pageFlowScope.inOperationType=='task-flow'}</expression>
+        <outcome>task-flow</outcome>
+      </case>
+      <case id="__16">
+        <expression>#{pageFlowScope.inOperationType=='java_script'}</expression>
+        <outcome>java_script</outcome>
+      </case>
+      <default-outcome>essential</default-outcome>
+    </router>
+    <task-flow-call id="Essential-tf">
+      <task-flow-reference>
+        <document>/WEB-INF/Essential-tf.xml</document>
+        <id>Essential-tf</id>
+      </task-flow-reference>
+    </task-flow-call>
+    <task-flow-call id="Business-Components-tf">
+      <task-flow-reference>
+        <document>/WEB-INF/Business-Components-tf.xml</document>
+        <id>Business-Components-tf</id>
+      </task-flow-reference>
+    </task-flow-call>
+    <task-flow-call id="Task-Flow-tf">
+      <task-flow-reference>
+        <document>/WEB-INF/Task-Flow-tf.xml</document>
+        <id>Task-Flow-tf</id>
+      </task-flow-reference>
+    </task-flow-call>
+    <task-flow-call id="JavasScript-tf">
+      <task-flow-reference>
+        <document>/WEB-INF/JavasScript-tf.xml</document>
+        <id>JavasScript-tf</id>
+      </task-flow-reference>
+    </task-flow-call>
+    <task-flow-call id="Binding-Internals-tf">
+      <task-flow-reference>
+        <document>/WEB-INF/Binding-Internals-tf.xml</document>
+        <id>Binding-Internals-tf</id>
+      </task-flow-reference>
+    </task-flow-call>
+    <control-flow-rule id="__1">
+      <from-activity-id>index</from-activity-id>
+      <control-flow-case id="__2">
+        <from-outcome>goToRouter</from-outcome>
+        <to-activity-id>router</to-activity-id>
+      </control-flow-case>
+    </control-flow-rule>
+    <control-flow-rule id="__3">
+      <from-activity-id>router</from-activity-id>
+      <control-flow-case id="__4">
+        <from-outcome>essential</from-outcome>
+        <to-activity-id>Essential-tf</to-activity-id>
+      </control-flow-case>
+      <control-flow-case id="__5">
+        <from-outcome>business-component</from-outcome>
+        <to-activity-id>Business-Components-tf</to-activity-id>
+      </control-flow-case>
+      <control-flow-case id="__7">
+        <from-outcome>task-flow</from-outcome>
+        <to-activity-id>Task-Flow-tf</to-activity-id>
+      </control-flow-case>
+      <control-flow-case id="__8">
+        <from-outcome>java_script</from-outcome>
+        <to-activity-id>JavasScript-tf</to-activity-id>
+      </control-flow-case>
+      <control-flow-case id="__14">
+        <from-outcome>binding-internals</from-outcome>
+        <to-activity-id>Binding-Internals-tf</to-activity-id>
+      </control-flow-case>
+    </control-flow-rule>
+    <use-page-fragments/>
+  </task-flow-definition>
+</adfc-config>

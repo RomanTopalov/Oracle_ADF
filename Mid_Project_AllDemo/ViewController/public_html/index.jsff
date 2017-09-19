@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<jsp:root xmlns:jsp="http://java.sun.com/JSP/Page" version="2.1" xmlns:f="http://java.sun.com/jsf/core"
+          xmlns:af="http://xmlns.oracle.com/adf/faces/rich">
+    <!--<jsp:directive.page contentType="text/html;charset=UTF-8" />
+-->
+    <af:decorativeBox id="db1">
+        <f:facet name="top">
+            <af:outputText value="Welcome to page with Topalov's DEMO_Projects Oracle ADF" id="ot1"
+                           inlineStyle="margin-left:25%; margin-right:25px;"/>
+        </f:facet>
+        <f:facet name="center">
+            <af:group id="g1">
+                <af:button text="Essential" id="b1" inlineStyle="padding:0px; margin:5px 0px 0px 0px;"
+                           action="#{pageFlowScope.ButtonActionBean.goToEssentialProject}"/>
+                <af:button id="b2" text="ADF Business Components" inlineStyle="margin-left:5px;"
+                           action="#{pageFlowScope.ButtonActionBean.goTo_BusinessComponents}"/>
+                <af:button text="Binding Internals" id="b3" inlineStyle="margin-left:5px;"
+                           action="#{pageFlowScope.ButtonActionBean.goToBindingInternalsProject}"/>
+                <af:button text="TaskFlow" id="b4" inlineStyle="margin-left:5px;"
+                           action="#{pageFlowScope.ButtonActionBean.goTo_TaskFlow}"/>
+                <af:button text="JavaScript" id="b5" inlineStyle="margin-left:5px;"
+                           action="#{pageFlowScope.ButtonActionBean.goTo_JavaScriptProject}"/>
+            </af:group>
+        </f:facet>
+    </af:decorativeBox>
+    <!--oracle-jdev-comment:preferred-managed-bean-name:ButtonActionBean-->
+</jsp:root>

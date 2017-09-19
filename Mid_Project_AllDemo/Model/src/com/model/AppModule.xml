@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="windows-1251" ?>
+<!DOCTYPE AppModule SYSTEM "jbo_03_01.dtd">
+<!---->
+<AppModule
+  xmlns="http://xmlns.oracle.com/bc4j"
+  Name="AppModule"
+  Version="12.2.1.12.2"
+  InheritPersonalization="merge"
+  ClearCacheOnRollback="true"
+  ComponentClass="com.model.AppModuleImpl"
+  ComponentInterface="com.model.common.AppModule">
+  <DesignTime>
+    <Attr Name="_isCodegen" Value="true"/>
+  </DesignTime>
+  <ViewUsage
+    Name="DepartmentsView1"
+    ViewObjectName="com.model.DepartmentsView"/>
+  <ViewUsage
+    Name="EmployeesView1"
+    ViewObjectName="com.model.EmployeesView"/>
+  <ViewUsage
+    Name="JobsView1"
+    ViewObjectName="com.model.JobsView"/>
+  <ViewUsage
+    Name="DepartmentsView2"
+    ViewObjectName="com.model.DepartmentsView"/>
+  <ViewUsage
+    Name="EmployeesView2"
+    ViewObjectName="com.model.EmployeesView"/>
+  <ViewUsage
+    Name="EmployeesView3"
+    ViewObjectName="com.model.EmployeesView"/>
+  <ViewUsage
+    Name="LocationsView1"
+    ViewObjectName="com.model.LocationsView"/>
+  <ViewUsage
+    Name="HightlyPaidEmpoyees1"
+    ViewObjectName="com.model.HightlyPaidEmpoyees"/>
+  <ViewUsage
+    Name="HightlyPaidEmpoyees2"
+    ViewObjectName="com.model.HightlyPaidEmpoyees"/>
+  <ViewLinkUsage
+    Name="DeptMgrFkLink1"
+    ViewLinkObjectName="com.model.DeptMgrFkLink"
+    SrcViewUsageName="com.model.AppModule.EmployeesView1"
+    DstViewUsageName="com.model.AppModule.DepartmentsView2"
+    Reversed="false"/>
+  <ViewLinkUsage
+    Name="EmpManagerFkLink1"
+    ViewLinkObjectName="com.model.EmpManagerFkLink"
+    SrcViewUsageName="com.model.AppModule.EmployeesView1"
+    DstViewUsageName="com.model.AppModule.EmployeesView2"
+    Reversed="false"/>
+  <ViewLinkUsage
+    Name="EmpDeptFkLink1"
+    ViewLinkObjectName="com.model.EmpDeptFkLink"
+    SrcViewUsageName="com.model.AppModule.DepartmentsView1"
+    DstViewUsageName="com.model.AppModule.EmployeesView3"
+    Reversed="false"/>
+  <ClientInterface
+    Name="__clientInterface">
+    <Method
+      Name="deleteAllEmployees"
+      MethodName="deleteAllEmployees">
+      <Return
+        Name="_return_type_"
+        Type="void"/>
+    </Method>
+  </ClientInterface>
+</AppModule>
