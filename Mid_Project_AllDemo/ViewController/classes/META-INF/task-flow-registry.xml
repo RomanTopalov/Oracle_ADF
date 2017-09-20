@@ -2,8 +2,11 @@
 <task-flow-registry xmlns="http://xmlns.oracle.com/adf/controller/rc">
    <task-flow-descriptor path="WEB-INF/Binding-Internals-tf.xml" id="Binding-Internals-tf" type="task-flow-definition" uses-page-fragments="true" library-internal="false" remote-invocable="false" train="false" critical="false" page-type="jsp"/>
    <task-flow-descriptor path="WEB-INF/Business-Components-tf.xml" id="Business-Components-tf" type="task-flow-definition" uses-page-fragments="true" library-internal="false" remote-invocable="false" train="false" critical="false" page-type="jsp"/>
+   <task-flow-descriptor path="WEB-INF/Dashboard-tf.xml" id="Dashboard-tf" type="task-flow-definition" uses-page-fragments="true" library-internal="false" remote-invocable="false" train="false" critical="false" page-type="jsp"/>
    <task-flow-descriptor path="WEB-INF/Essential-tf.xml" id="Essential-tf" type="task-flow-definition" uses-page-fragments="true" library-internal="false" remote-invocable="false" train="false" critical="false" page-type="jsp"/>
    <task-flow-descriptor path="WEB-INF/JavasScript-tf.xml" id="JavasScript-tf" type="task-flow-definition" uses-page-fragments="true" library-internal="false" remote-invocable="false" train="false" critical="false" page-type="jsp"/>
+   <task-flow-descriptor path="WEB-INF/Render-Image-tf.xml" id="Render-Image-tf" type="task-flow-definition" uses-page-fragments="true" library-internal="false" remote-invocable="false" train="false" critical="false" page-type="jsp"/>
+   <task-flow-descriptor path="WEB-INF/SearchPage-tf.xml" id="SearchPage-tf" type="task-flow-definition" uses-page-fragments="true" library-internal="false" remote-invocable="false" train="false" critical="false" page-type="jsp"/>
    <task-flow-descriptor path="WEB-INF/Task-Flow-tf.xml" id="Task-Flow-tf" type="task-flow-definition" uses-page-fragments="true" library-internal="false" remote-invocable="false" train="false" critical="false" page-type="jsp"/>
    <task-flow-descriptor path="WEB-INF/main-tf.xml" id="main-tf" type="task-flow-definition" uses-page-fragments="true" library-internal="false" remote-invocable="false" train="false" critical="false" page-type="jsp">
       <input-parameter name="inOperationType"/>

@@ -9,13 +9,13 @@
       <property
          name="pageFragment">true</property>
       <property
-         name="x">109.5</property>
+         name="x">68.5</property>
       <property
          name="start">true</property>
       <property
          name="description">&lt;html>&lt;p>&lt;b>index&lt;/b> (Default Activity)&lt;/p>&lt;p>Activity Type:  View&lt;/p></property>
       <property
-         name="y">299.29297</property>
+         name="y">297.89062</property>
       <property
          name="page">/index.jsff</property>
       <property
@@ -42,7 +42,7 @@
       <property
          name="fromOutcome">goToRouter</property>
       <property
-         name="sdm:polyPoints">R50,150.5,298.94238,262.0,299.7412,L50</property>
+         name="sdm:polyPoints">R50,109.5,297.54004,262.0,299.7412,L50</property>
    </ControlFlowCase>
    <TaskFlowCall
       id="TaskFlowCall7">
@@ -68,9 +68,9 @@
       <property
          name="activityId">Business-Components-tf</property>
       <property
-         name="x">598.0</property>
+         name="x">432.0</property>
       <property
-         name="y">146.39062</property>
+         name="y">94.68945</property>
       <property
          name="documentReference">/WEB-INF/Business-Components-tf.xml</property>
       <property
@@ -85,9 +85,9 @@
       <property
          name="activityId">Task-Flow-tf</property>
       <property
-         name="x">612.44446</property>
+         name="x">763.44446</property>
       <property
-         name="y">474.63977</property>
+         name="y">220.23743</property>
       <property
          name="documentReference">/WEB-INF/Task-Flow-tf.xml</property>
       <property
@@ -102,9 +102,9 @@
       <property
          name="activityId">JavasScript-tf</property>
       <property
-         name="x">299.0</property>
+         name="x">763.0</property>
       <property
-         name="y">476.89648</property>
+         name="y">321.0918</property>
       <property
          name="documentReference">/WEB-INF/JavasScript-tf.xml</property>
       <property
@@ -120,7 +120,7 @@
       <property
          name="fromOutcome">essential</property>
       <property
-         name="sdm:polyPoints">T50,303.0,245.74121,306.0,187.84473,B50</property>
+         name="sdm:polyPoints">T44,299.5,243.83131,306.0,187.84473,B50</property>
    </ControlFlowCase>
    <ControlFlowCase
       islink="true"
@@ -130,7 +130,7 @@
       <property
          name="fromOutcome">business-component</property>
       <property
-         name="sdm:polyPoints">R42,344.0,292.7412,557.0,146.04004,L50</property>
+         name="sdm:polyPoints">T56,306.5,245.74121,432.0,148.33887,B50</property>
    </ControlFlowCase>
    <ControlFlowCase
       islink="true"
@@ -140,7 +140,7 @@
       <property
          name="fromOutcome">task-flow</property>
       <property
-         name="sdm:polyPoints">R58,344.0,306.7412,571.44446,474.28918,L50</property>
+         name="sdm:polyPoints">R46,345.08923,296.2412,722.44446,219.88684,L50</property>
    </ControlFlowCase>
    <ControlFlowCase
       islink="true"
@@ -150,7 +150,7 @@
       <property
          name="fromOutcome">java_script</property>
       <property
-         name="sdm:polyPoints">B50,303.0,353.7412,299.0,422.5459,T50</property>
+         name="sdm:polyPoints">R54,344.6085,303.2412,722.0,320.7412,L50</property>
    </ControlFlowCase>
    <TaskFlowCall
       id="TaskFlowCall18">
@@ -159,9 +159,9 @@
       <property
          name="activityId">Binding-Internals-tf</property>
       <property
-         name="x">626.6775</property>
+         name="x">799.6775</property>
       <property
-         name="y">303.52484</property>
+         name="y">106.1225</property>
       <property
          name="documentReference">/WEB-INF/Binding-Internals-tf.xml</property>
       <property
@@ -177,6 +177,87 @@
       <property
          name="fromOutcome">binding-internals</property>
       <property
-         name="sdm:polyPoints">R50,345.17484,299.7412,585.6775,303.17426,L50</property>
+         name="sdm:polyPoints">R38,344.0,289.2412,758.6775,105.77191,L50</property>
+   </ControlFlowCase>
+   <TaskFlowCall
+      id="TaskFlowCall19">
+      <property
+         name="description">&lt;html>&lt;p>&lt;b>Dashboard-tf&lt;/b>&lt;/p>&lt;p>Activity Type:  Task Flow Call&lt;/p></property>
+      <property
+         name="activityId">Dashboard-tf</property>
+      <property
+         name="x">764.0</property>
+      <property
+         name="y">427.49414</property>
+      <property
+         name="documentReference">/WEB-INF/Dashboard-tf.xml</property>
+      <property
+         name="exceptionHandler">false</property>
+      <property
+         name="taskFlowId">Dashboard-tf</property>
+   </TaskFlowCall>
+   <ControlFlowCase
+      islink="true"
+      id="ControlFlowCase20"
+      from="Router5"
+      to="TaskFlowCall19">
+      <property
+         name="fromOutcome">dashboard</property>
+      <property
+         name="sdm:polyPoints">R62,344.0,310.2412,723.0,427.14355,L50</property>
+   </ControlFlowCase>
+   <TaskFlowCall
+      id="TaskFlowCall21">
+      <property
+         name="description">&lt;html>&lt;p>&lt;b>Render-Image-tf&lt;/b>&lt;/p>&lt;p>Activity Type:  Task Flow Call&lt;/p></property>
+      <property
+         name="activityId">Render-Image-tf</property>
+      <property
+         name="x">483.0</property>
+      <property
+         name="y">480.5459</property>
+      <property
+         name="documentReference">/WEB-INF/Render-Image-tf.xml</property>
+      <property
+         name="exceptionHandler">false</property>
+      <property
+         name="taskFlowId">Render-Image-tf</property>
+   </TaskFlowCall>
+   <ControlFlowCase
+      islink="true"
+      id="ControlFlowCase22"
+      from="Router5"
+      to="TaskFlowCall21">
+      <property
+         name="fromOutcome">render-image</property>
+      <property
+         name="sdm:polyPoints">B56,306.5,353.7412,442.0,480.1953,L50</property>
+   </ControlFlowCase>
+   <TaskFlowCall
+      id="TaskFlowCall23">
+      <property
+         name="description">&lt;html>&lt;p>&lt;b>SearchPage-tf&lt;/b>&lt;/p>&lt;p>Activity Type:  Task Flow Call&lt;/p></property>
+      <property
+         name="activityId">SearchPage-tf</property>
+      <property
+         name="x">157.0</property>
+      <property
+         name="y">489.89648</property>
+      <property
+         name="documentReference">/WEB-INF/SearchPage-tf.xml</property>
+      <property
+         name="exceptionHandler">false</property>
+      <property
+         name="taskFlowId">SearchPage-tf</property>
+   </TaskFlowCall>
+   <ControlFlowCase
+      islink="true"
+      id="ControlFlowCase24"
+      from="Router5"
+      to="TaskFlowCall23">
+      <property
+         name="fromOutcome">search-page</property>
+      <property
+         name="sdm:polyPoints">B44,299.5,353.7412,157.0,435.5459,T50</property>
    </ControlFlowCase>
 </SDM>

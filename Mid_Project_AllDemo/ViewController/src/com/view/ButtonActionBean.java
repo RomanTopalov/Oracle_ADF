@@ -39,4 +39,22 @@ public class ButtonActionBean {
         mainProcessBean.putValue("java_script");
         return "goToRouter";
     }
+
+    public String goTo_Dashboard() {
+        MainProcessBean mainProcessBean = new MainProcessBean();
+        mainProcessBean.putValue("dashboard");
+        return "goToRouter";
+    }
+
+    public String goTo_RenderImage() {
+        MainProcessBean mainProcessBean = new MainProcessBean();
+        mainProcessBean.putValue("render-image");
+        return "goToRouter";
+    }
+    
+    public String goTo_SearchPage() {
+        MainProcessBean mainProcessBean = new MainProcessBean();
+        mainProcessBean.putValue("search-page");
+        return "goToRouter";
+    }
 }

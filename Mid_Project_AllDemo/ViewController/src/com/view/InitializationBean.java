@@ -26,4 +26,16 @@ public class InitializationBean {
         System.out.println("Start process initialization javascript bean .... ");
         
     }
+
+    public void initialization_Dashboard() {
+        System.out.println("Start process initialization dashboard bean .... ");
+    }
+
+    public void initialization_RenderImage() {
+        System.out.println("Start process initialization render image bean .... ");
+    }
+
+    public void initialization_SearchPage() {
+        System.out.println("Start process initialization search page bean .... ");
+    }
 }

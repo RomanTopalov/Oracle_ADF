@@ -17,6 +17,9 @@
     <page path="/business-component-v.jsff" usageId="com_view_business_component_vPageDef"/>
     <page path="/task-flow-v.jsff" usageId="com_view_task_flow_vPageDef"/>
     <page path="/javaScript-v.jsff" usageId="com_view_javaScript_vPageDef"/>
+    <page path="/dashboard-v.jsff" usageId="com_view_dashboard_vPageDef"/>
+    <page path="/renderImage-v.jsff" usageId="com_view_renderImage_vPageDef"/>
+    <page path="/searchPage_v.jsff" usageId="com_view_searchPage_vPageDef"/>
   </pageMap>
   <pageDefinitionUsages>
     <page id="com_view_essential_bodyPageDef" path="com.view.pageDefs.essential_bodyPageDef"/>
@@ -27,6 +30,9 @@
     <page id="com_view_business_component_vPageDef" path="com.view.pageDefs.business_component_vPageDef"/>
     <page id="com_view_task_flow_vPageDef" path="com.view.pageDefs.task_flow_vPageDef"/>
     <page id="com_view_javaScript_vPageDef" path="com.view.pageDefs.javaScript_vPageDef"/>
+    <page id="com_view_dashboard_vPageDef" path="com.view.pageDefs.dashboard_vPageDef"/>
+    <page id="com_view_renderImage_vPageDef" path="com.view.pageDefs.renderImage_vPageDef"/>
+    <page id="com_view_searchPage_vPageDef" path="com.view.pageDefs.searchPage_vPageDef"/>
   </pageDefinitionUsages>
   <dataControlUsages>
     <dc id="TextEssentialExample" path="com.model.TextEssentialExample"/>

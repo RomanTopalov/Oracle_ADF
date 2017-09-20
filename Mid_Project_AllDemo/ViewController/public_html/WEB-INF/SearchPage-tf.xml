@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="windows-1251" ?>
+<adfc-config xmlns="http://xmlns.oracle.com/adf/controller" version="1.2">
+  <task-flow-definition id="SearchPage-tf">
+    <default-activity>initialization_SearchPage</default-activity>
+    <data-control-scope>
+      <shared/>
+    </data-control-scope>
+    <managed-bean id="__7">
+      <managed-bean-name>InitializationBean</managed-bean-name>
+      <managed-bean-class>com.view.InitializationBean</managed-bean-class>
+      <managed-bean-scope>pageFlow</managed-bean-scope>
+    </managed-bean>
+    <method-call id="initialization_SearchPage">
+      <method>#{pageFlowScope.InitializationBean.initialization_SearchPage}</method>
+      <outcome>
+        <fixed-outcome>continue</fixed-outcome>
+      </outcome>
+    </method-call>
+    <view id="searchPage_v">
+      <page>/searchPage_v.jsff</page>
+    </view>
+    <task-flow-return id="ReturnToFirstPage">
+      <outcome>
+        <name>ReturnToFirstPage</name>
+      </outcome>
+    </task-flow-return>
+    <control-flow-rule id="__3">
+      <from-activity-id>initialization_SearchPage</from-activity-id>
+      <control-flow-case id="__4">
+        <from-outcome>continue</from-outcome>
+        <to-activity-id>searchPage_v</to-activity-id>
+      </control-flow-case>
+    </control-flow-rule>
+    <control-flow-rule id="__5">
+      <from-activity-id>*</from-activity-id>
+      <control-flow-case id="__6">
+        <from-outcome>goToFirstPage</from-outcome>
+        <to-activity-id>ReturnToFirstPage</to-activity-id>
+      </control-flow-case>
+    </control-flow-rule>
+    <use-page-fragments/>
+  </task-flow-definition>
+</adfc-config>

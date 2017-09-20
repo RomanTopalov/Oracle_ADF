@@ -120,5 +120,61 @@ public class AppModuleImpl extends ApplicationModuleImpl implements AppModule {
     public ViewLinkImpl getEmpDeptFkLink1() {
         return (ViewLinkImpl) findViewLink("EmpDeptFkLink1");
     }
+
+    /**
+     * Container's getter for CountriesView1.
+     * @return CountriesView1
+     */
+    public ViewObjectImpl getCountriesView1() {
+        return (ViewObjectImpl) findViewObject("CountriesView1");
+    }
+
+    /**
+     * Container's getter for Locations1View1.
+     * @return Locations1View1
+     */
+    public ViewObjectImpl getLocations1View1() {
+        return (ViewObjectImpl) findViewObject("Locations1View1");
+    }
+
+    /**
+     * Container's getter for RegionsView1.
+     * @return RegionsView1
+     */
+    public ViewObjectImpl getRegionsView1() {
+        return (ViewObjectImpl) findViewObject("RegionsView1");
+    }
+
+    /**
+     * Container's getter for Locations1View2.
+     * @return Locations1View2
+     */
+    public ViewObjectImpl getLocations1View2() {
+        return (ViewObjectImpl) findViewObject("Locations1View2");
+    }
+
+    /**
+     * Container's getter for CountriesView2.
+     * @return CountriesView2
+     */
+    public ViewObjectImpl getCountriesView2() {
+        return (ViewObjectImpl) findViewObject("CountriesView2");
+    }
+
+    /**
+     * Container's getter for LocCIdFkLink1.
+     * @return LocCIdFkLink1
+     */
+    public ViewLinkImpl getLocCIdFkLink1() {
+        return (ViewLinkImpl) findViewLink("LocCIdFkLink1");
+    }
+
+    /**
+     * Container's getter for CountrRegFkLink1.
+     * @return CountrRegFkLink1
+     */
+    public ViewLinkImpl getCountrRegFkLink1() {
+        return (ViewLinkImpl) findViewLink("CountrRegFkLink1");
+    }
 }
 

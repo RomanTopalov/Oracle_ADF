@@ -1,0 +1,56 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<jsp:root xmlns:jsp="http://java.sun.com/JSP/Page" version="2.1" xmlns:af="http://xmlns.oracle.com/adf/faces/rich"
+          xmlns:f="http://java.sun.com/jsf/core">
+  <af:button text="Go to Welcome Page" id="b1" action="goToFirstPage"/>
+  <af:panelBox text="Some Reviews" id="pb1">
+    <f:facet name="toolbar"/>
+    <af:panelFormLayout id="pfl1">
+      <af:inputText value="#{bindings.EmployeeId.inputValue}" label="#{bindings.EmployeeId.hints.label}"
+                    required="#{bindings.EmployeeId.hints.mandatory}" readOnly="true"
+                    columns="#{bindings.EmployeeId.hints.displayWidth}"
+                    maximumLength="#{bindings.EmployeeId.hints.precision}"
+                    shortDesc="#{bindings.EmployeeId.hints.tooltip}" id="it1">
+        <f:validator binding="#{bindings.EmployeeId.validator}"/>
+        <af:convertNumber groupingUsed="false" pattern="#{bindings.EmployeeId.format}"/>
+      </af:inputText>
+      <af:inputText value="#{bindings.FirstName.inputValue}" label="#{bindings.FirstName.hints.label}"
+                    required="#{bindings.FirstName.hints.mandatory}" readOnly="true"
+                    columns="#{bindings.FirstName.hints.displayWidth}"
+                    maximumLength="#{bindings.FirstName.hints.precision}"
+                    shortDesc="#{bindings.FirstName.hints.tooltip}" id="it2">
+        <f:validator binding="#{bindings.FirstName.validator}"/>
+      </af:inputText>
+      <af:inputText value="#{bindings.LastName.inputValue}" label="#{bindings.LastName.hints.label}"
+                    required="#{bindings.LastName.hints.mandatory}" readOnly="true"
+                    columns="#{bindings.LastName.hints.displayWidth}"
+                    maximumLength="#{bindings.LastName.hints.precision}" shortDesc="#{bindings.LastName.hints.tooltip}"
+                    id="it3">
+        <f:validator binding="#{bindings.LastName.validator}"/>
+      </af:inputText>
+      <af:inputText value="#{bindings.Salary.inputValue}" label="#{bindings.Salary.hints.label}"
+                    required="#{bindings.Salary.hints.mandatory}" readOnly="true"
+                    columns="#{bindings.Salary.hints.displayWidth}" maximumLength="#{bindings.Salary.hints.precision}"
+                    shortDesc="#{bindings.Salary.hints.tooltip}" id="it4" binding="#{RanderImage_Bean.employeeRating}">
+        <f:validator binding="#{bindings.Salary.validator}"/>
+        <af:convertNumber groupingUsed="false" pattern="#{bindings.Salary.format}"/>
+      </af:inputText>
+      <af:panelGroupLayout id="pgl2" layout="horizontal">
+        <af:iterator id="i1" value="#{requestScope.RanderImage_Bean.starRating}" var="eachStar">
+          <af:image id="i2" source="../#{requestScope.eachStar}" inlineStyle="width:30px;height:30px;"/>
+        </af:iterator>
+      </af:panelGroupLayout>
+      <f:facet name="footer">
+        <af:panelGroupLayout layout="horizontal" id="pgl1">
+          <af:button actionListener="#{bindings.First.execute}" text="First" disabled="#{!bindings.First.enabled}"
+                     partialSubmit="true" id="b2"/>
+          <af:button actionListener="#{bindings.Previous.execute}" text="Previous"
+                     disabled="#{!bindings.Previous.enabled}" partialSubmit="true" id="b3"/>
+          <af:button actionListener="#{bindings.Next.execute}" text="Next" disabled="#{!bindings.Next.enabled}"
+                     partialSubmit="true" id="b4"/>
+          <af:button actionListener="#{bindings.Last.execute}" text="Last" disabled="#{!bindings.Last.enabled}"
+                     partialSubmit="true" id="b5"/>
+        </af:panelGroupLayout>
+      </f:facet>
+    </af:panelFormLayout>
+  </af:panelBox>
+</jsp:root>

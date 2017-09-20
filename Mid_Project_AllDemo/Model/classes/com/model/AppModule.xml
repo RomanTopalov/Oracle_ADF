@@ -39,6 +39,21 @@
   <ViewUsage
     Name="HightlyPaidEmpoyees2"
     ViewObjectName="com.model.HightlyPaidEmpoyees"/>
+  <ViewUsage
+    Name="CountriesView1"
+    ViewObjectName="com.model.CountriesView"/>
+  <ViewUsage
+    Name="Locations1View1"
+    ViewObjectName="com.model.Locations1View"/>
+  <ViewUsage
+    Name="RegionsView1"
+    ViewObjectName="com.model.RegionsView"/>
+  <ViewUsage
+    Name="Locations1View2"
+    ViewObjectName="com.model.Locations1View"/>
+  <ViewUsage
+    Name="CountriesView2"
+    ViewObjectName="com.model.CountriesView"/>
   <ViewLinkUsage
     Name="DeptMgrFkLink1"
     ViewLinkObjectName="com.model.DeptMgrFkLink"
@@ -57,8 +72,27 @@
     SrcViewUsageName="com.model.AppModule.DepartmentsView1"
     DstViewUsageName="com.model.AppModule.EmployeesView3"
     Reversed="false"/>
+  <ViewLinkUsage
+    Name="LocCIdFkLink1"
+    ViewLinkObjectName="com.model.LocCIdFkLink"
+    SrcViewUsageName="com.model.AppModule.CountriesView1"
+    DstViewUsageName="com.model.AppModule.Locations1View2"
+    Reversed="false"/>
+  <ViewLinkUsage
+    Name="CountrRegFkLink1"
+    ViewLinkObjectName="com.model.CountrRegFkLink"
+    SrcViewUsageName="com.model.AppModule.RegionsView1"
+    DstViewUsageName="com.model.AppModule.CountriesView2"
+    Reversed="false"/>
   <ClientInterface
     Name="__clientInterface">
+    <Method
+      Name="deleteAllEmployees"
+      MethodName="deleteAllEmployees">
+      <Return
+        Name="_return_type_"
+        Type="void"/>
+    </Method>
     <Method
       Name="deleteAllEmployees"
       MethodName="deleteAllEmployees">

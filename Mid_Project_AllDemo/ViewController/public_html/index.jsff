@@ -20,6 +20,11 @@
                            action="#{pageFlowScope.ButtonActionBean.goTo_TaskFlow}"/>
                 <af:button text="JavaScript" id="b5" inlineStyle="margin-left:5px;"
                            action="#{pageFlowScope.ButtonActionBean.goTo_JavaScriptProject}"/>
+                <af:button text="ADF Dashboards" id="b6" inlineStyle="margin-left:5px;"
+                           action="#{pageFlowScope.ButtonActionBean.goTo_Dashboard}"/>
+                <af:button text="Render an Image" id="b7" inlineStyle="margin-left:5px;"
+                           action="#{pageFlowScope.ButtonActionBean.goTo_RenderImage}"/>
+                <af:button text="Search Page" id="b8" inlineStyle="margin-left:5px;" action="#{pageFlowScope.ButtonActionBean.goTo_SearchPage}"/>
             </af:group>
         </f:facet>
     </af:decorativeBox>

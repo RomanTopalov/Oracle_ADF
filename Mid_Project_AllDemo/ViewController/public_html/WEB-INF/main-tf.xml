@@ -44,6 +44,18 @@
         <expression>#{pageFlowScope.inOperationType=='java_script'}</expression>
         <outcome>java_script</outcome>
       </case>
+      <case id="__18">
+        <expression>#{pageFlowScope.inOperationType=='dashboard'}</expression>
+        <outcome>dashboard</outcome>
+      </case>
+      <case id="__20">
+        <expression>#{pageFlowScope.inOperationType=='render-image'}</expression>
+        <outcome>render-image</outcome>
+      </case>
+      <case id="__22">
+        <expression>#{pageFlowScope.inOperationType=='search-page'}</expression>
+        <outcome>search-page</outcome>
+      </case>
       <default-outcome>essential</default-outcome>
     </router>
     <task-flow-call id="Essential-tf">
@@ -76,6 +88,24 @@
         <id>Binding-Internals-tf</id>
       </task-flow-reference>
     </task-flow-call>
+    <task-flow-call id="Dashboard-tf">
+      <task-flow-reference>
+        <document>/WEB-INF/Dashboard-tf.xml</document>
+        <id>Dashboard-tf</id>
+      </task-flow-reference>
+    </task-flow-call>
+    <task-flow-call id="Render-Image-tf">
+      <task-flow-reference>
+        <document>/WEB-INF/Render-Image-tf.xml</document>
+        <id>Render-Image-tf</id>
+      </task-flow-reference>
+    </task-flow-call>
+    <task-flow-call id="SearchPage-tf">
+      <task-flow-reference>
+        <document>/WEB-INF/SearchPage-tf.xml</document>
+        <id>SearchPage-tf</id>
+      </task-flow-reference>
+    </task-flow-call>
     <control-flow-rule id="__1">
       <from-activity-id>index</from-activity-id>
       <control-flow-case id="__2">
@@ -104,6 +134,18 @@
       <control-flow-case id="__14">
         <from-outcome>binding-internals</from-outcome>
         <to-activity-id>Binding-Internals-tf</to-activity-id>
+      </control-flow-case>
+      <control-flow-case id="__17">
+        <from-outcome>dashboard</from-outcome>
+        <to-activity-id>Dashboard-tf</to-activity-id>
+      </control-flow-case>
+      <control-flow-case id="__19">
+        <from-outcome>render-image</from-outcome>
+        <to-activity-id>Render-Image-tf</to-activity-id>
+      </control-flow-case>
+      <control-flow-case id="__21">
+        <from-outcome>search-page</from-outcome>
+        <to-activity-id>SearchPage-tf</to-activity-id>
       </control-flow-case>
     </control-flow-rule>
     <use-page-fragments/>
