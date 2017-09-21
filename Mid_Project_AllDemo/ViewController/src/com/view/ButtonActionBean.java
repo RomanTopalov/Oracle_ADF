@@ -57,4 +57,10 @@ public class ButtonActionBean {
         mainProcessBean.putValue("search-page");
         return "goToRouter";
     }
+
+    public String goTo_RowSelection() {
+        MainProcessBean mainProcessBean = new MainProcessBean();
+        mainProcessBean.putValue("row-selection");
+        return "goToRouter";
+    }
 }

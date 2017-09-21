@@ -1,7 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="738c8ec0-e6d6-47b3-8fa5-27869b43241f" name="Default" comment="" />
+    <list default="true" id="738c8ec0-e6d6-47b3-8fa5-27869b43241f" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Mid_Project_AllDemo/.data/00000000/00000001.jdb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Mid_Project_AllDemo/.data/00000000/00000002.jdb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Mid_Project_AllDemo/ViewController/classes/.wlsjsps/jsp_servlet/__bindinginternals_v_jsff.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Mid_Project_AllDemo/ViewController/classes/.wlsjsps/jsp_servlet/__business_45_component_45_v_jsff.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Mid_Project_AllDemo/ViewController/classes/.wlsjsps/jsp_servlet/__dashboard_45_v_jsff.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Mid_Project_AllDemo/ViewController/classes/.wlsjsps/jsp_servlet/__dataessential_45_v_jsff.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Mid_Project_AllDemo/ViewController/classes/.wlsjsps/jsp_servlet/__essential_45_body_jsff.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Mid_Project_AllDemo/ViewController/classes/.wlsjsps/jsp_servlet/__javascript_45_v_jsff.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Mid_Project_AllDemo/ViewController/classes/.wlsjsps/jsp_servlet/__resultsessential_45_v_jsff.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Mid_Project_AllDemo/ViewController/classes/.wlsjsps/jsp_servlet/__searchpage_v_jsff.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Mid_Project_AllDemo/ViewController/classes/.wlsjsps/jsp_servlet/__welcomeessential_45_v_jsff.class" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Mid_Project_AllDemo/.data/ViewController/00000000/00000004.jdb" afterPath="$PROJECT_DIR$/Mid_Project_AllDemo/.data/ViewController/00000000/00000004.jdb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Mid_Project_AllDemo/ViewController/classes/.data/ViewController.cdi" afterPath="$PROJECT_DIR$/Mid_Project_AllDemo/ViewController/classes/.data/ViewController.cdi" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Mid_Project_AllDemo/ViewController/classes/.wlsjsps/jsp_servlet/__index_jsff.class" afterPath="$PROJECT_DIR$/Mid_Project_AllDemo/ViewController/classes/.wlsjsps/jsp_servlet/__index_jsff.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Mid_Project_AllDemo/ViewController/classes/.wlsjsps/jsp_servlet/__index_jspx.class" afterPath="$PROJECT_DIR$/Mid_Project_AllDemo/ViewController/classes/.wlsjsps/jsp_servlet/__index_jspx.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Mid_Project_AllDemo/ViewController/classes/.wlsjsps/jsp_servlet/__renderimage_45_v_jsff.class" afterPath="$PROJECT_DIR$/Mid_Project_AllDemo/ViewController/classes/.wlsjsps/jsp_servlet/__renderimage_45_v_jsff.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Mid_Project_AllDemo/ViewController/classes/.wlsjsps/jsp_servlet/__task_45_flow_45_v_jsff.class" afterPath="$PROJECT_DIR$/Mid_Project_AllDemo/ViewController/classes/.wlsjsps/jsp_servlet/__task_45_flow_45_v_jsff.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Mid_Project_AllDemo/ViewController/classes/com/view/ButtonActionBean.class" afterPath="$PROJECT_DIR$/Mid_Project_AllDemo/ViewController/classes/com/view/ButtonActionBean.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Mid_Project_AllDemo/ViewController/classes/com/view/InitializationBean.class" afterPath="$PROJECT_DIR$/Mid_Project_AllDemo/ViewController/classes/com/view/InitializationBean.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Mid_Project_AllDemo/ViewController/classes/com/view/RanderImage_Bean.class" afterPath="$PROJECT_DIR$/Mid_Project_AllDemo/ViewController/classes/com/view/RanderImage_Bean.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Mid_Project_AllDemo/ViewController/adfmsrc/com/view/DataBindings.cpx" afterPath="$PROJECT_DIR$/Mid_Project_AllDemo/ViewController/adfmsrc/com/view/DataBindings.cpx" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Mid_Project_AllDemo/ViewController/classes/META-INF/task-flow-registry.xml" afterPath="$PROJECT_DIR$/Mid_Project_AllDemo/ViewController/classes/META-INF/task-flow-registry.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Mid_Project_AllDemo/ViewController/classes/com/view/DataBindings.cpx" afterPath="$PROJECT_DIR$/Mid_Project_AllDemo/ViewController/classes/com/view/DataBindings.cpx" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Mid_Project_AllDemo/ViewController/model/WEB-INF/Dashboard-tf.adfc_diagram" afterPath="$PROJECT_DIR$/Mid_Project_AllDemo/ViewController/model/WEB-INF/Dashboard-tf.adfc_diagram" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Mid_Project_AllDemo/ViewController/model/WEB-INF/main-tf.adfc_diagram" afterPath="$PROJECT_DIR$/Mid_Project_AllDemo/ViewController/model/WEB-INF/main-tf.adfc_diagram" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Mid_Project_AllDemo/ViewController/public_html/WEB-INF/main-tf.xml" afterPath="$PROJECT_DIR$/Mid_Project_AllDemo/ViewController/public_html/WEB-INF/main-tf.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Mid_Project_AllDemo/ViewController/public_html/index.jsff" afterPath="$PROJECT_DIR$/Mid_Project_AllDemo/ViewController/public_html/index.jsff" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Mid_Project_AllDemo/ViewController/src/com/view/ButtonActionBean.java" afterPath="$PROJECT_DIR$/Mid_Project_AllDemo/ViewController/src/com/view/ButtonActionBean.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Mid_Project_AllDemo/ViewController/src/com/view/InitializationBean.java" afterPath="$PROJECT_DIR$/Mid_Project_AllDemo/ViewController/src/com/view/InitializationBean.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Mid_Project_AllDemo/ViewController/src/com/view/RanderImage_Bean.java" afterPath="$PROJECT_DIR$/Mid_Project_AllDemo/ViewController/src/com/view/RanderImage_Bean.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+    </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -22,13 +55,16 @@
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
-              <caret line="0" column="62" lean-forward="false" selection-start-line="0" selection-start-column="62" selection-end-line="0" selection-end-column="62" />
+              <caret line="0" column="64" lean-forward="false" selection-start-line="0" selection-start-column="64" selection-end-line="0" selection-end-column="64" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -64,6 +100,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -78,7 +115,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="Scratches" />
     </panes>
   </component>
@@ -168,22 +204,24 @@
       <updated>1505843525758</updated>
       <workItem from="1505843527724" duration="204000" />
       <workItem from="1505843837380" duration="186000" />
+      <workItem from="1505935597795" duration="841000" />
+      <workItem from="1505981541789" duration="39000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="390000" />
+    <option name="totallyTimeSpent" value="1270000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32843137" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32843137" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -218,7 +256,23 @@
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="62" lean-forward="false" selection-start-line="0" selection-start-column="62" selection-end-line="0" selection-end-column="62" />
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="64" lean-forward="false" selection-start-line="0" selection-start-column="64" selection-end-line="0" selection-end-column="64" />
           <folding />
         </state>
       </provider>

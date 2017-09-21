@@ -38,4 +38,8 @@ public class InitializationBean {
     public void initialization_SearchPage() {
         System.out.println("Start process initialization search page bean .... ");
     }
+
+    public void initialization_rowSelection() {
+        System.out.println("Start process initialization row selection bean .... ");
+    }
 }

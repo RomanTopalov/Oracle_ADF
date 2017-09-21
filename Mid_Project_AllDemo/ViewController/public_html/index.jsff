@@ -6,7 +6,7 @@
     <af:decorativeBox id="db1">
         <f:facet name="top">
             <af:outputText value="Welcome to page with Topalov's DEMO_Projects Oracle ADF" id="ot1"
-                           inlineStyle="margin-left:25%; margin-right:25px;"/>
+                           inlineStyle="margin-left:40%; margin-right:25px;"/>
         </f:facet>
         <f:facet name="center">
             <af:group id="g1">
@@ -25,6 +25,7 @@
                 <af:button text="Render an Image" id="b7" inlineStyle="margin-left:5px;"
                            action="#{pageFlowScope.ButtonActionBean.goTo_RenderImage}"/>
                 <af:button text="Search Page" id="b8" inlineStyle="margin-left:5px;" action="#{pageFlowScope.ButtonActionBean.goTo_SearchPage}"/>
+                <af:button text="Row Selection" id="b9" action="#{pageFlowScope.ButtonActionBean.goTo_RowSelection}" inlineStyle="margin-left:5px;"/>
             </af:group>
         </f:facet>
     </af:decorativeBox>

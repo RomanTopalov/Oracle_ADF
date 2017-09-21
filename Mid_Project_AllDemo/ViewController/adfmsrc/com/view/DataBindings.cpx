@@ -20,6 +20,7 @@
     <page path="/dashboard-v.jsff" usageId="com_view_dashboard_vPageDef"/>
     <page path="/renderImage-v.jsff" usageId="com_view_renderImage_vPageDef"/>
     <page path="/searchPage_v.jsff" usageId="com_view_searchPage_vPageDef"/>
+    <page path="/rowSelection-v.jsff" usageId="com_view_rowSelection_vPageDef"/>
   </pageMap>
   <pageDefinitionUsages>
     <page id="com_view_essential_bodyPageDef" path="com.view.pageDefs.essential_bodyPageDef"/>
@@ -33,10 +34,21 @@
     <page id="com_view_dashboard_vPageDef" path="com.view.pageDefs.dashboard_vPageDef"/>
     <page id="com_view_renderImage_vPageDef" path="com.view.pageDefs.renderImage_vPageDef"/>
     <page id="com_view_searchPage_vPageDef" path="com.view.pageDefs.searchPage_vPageDef"/>
+    <page id="com_view_rowSelection_vPageDef" path="com.view.pageDefs.rowSelection_vPageDef"/>
   </pageDefinitionUsages>
   <dataControlUsages>
     <dc id="TextEssentialExample" path="com.model.TextEssentialExample"/>
     <BC4JDataControl id="AppModuleDataControl" Package="com.model"
+                     FactoryClass="oracle.adf.model.bc4j.DataControlFactoryImpl" SupportsTransactions="true"
+                     SupportsFindMode="true" SupportsRangesize="true" SupportsResetState="true"
+                     SupportsSortCollection="true" Configuration="AppModuleLocal" syncMode="Immediate"
+                     xmlns="http://xmlns.oracle.com/adfm/datacontrol"/>
+    <BC4JDataControl id="AppModuleDataControl1" Package="com.model"
+                     FactoryClass="oracle.adf.model.bc4j.DataControlFactoryImpl" SupportsTransactions="true"
+                     SupportsFindMode="true" SupportsRangesize="true" SupportsResetState="true"
+                     SupportsSortCollection="true" Configuration="AppModuleLocal" syncMode="Immediate"
+                     xmlns="http://xmlns.oracle.com/adfm/datacontrol"/>
+    <BC4JDataControl id="AppModuleDataControl2" Package="com.model"
                      FactoryClass="oracle.adf.model.bc4j.DataControlFactoryImpl" SupportsTransactions="true"
                      SupportsFindMode="true" SupportsRangesize="true" SupportsResetState="true"
                      SupportsSortCollection="true" Configuration="AppModuleLocal" syncMode="Immediate"

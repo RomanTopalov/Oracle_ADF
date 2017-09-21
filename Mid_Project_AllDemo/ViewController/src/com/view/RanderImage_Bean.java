@@ -32,16 +32,16 @@ public class RanderImage_Bean {
             }else if(rating> 7000 && rating< 9000){
                 al.add("star0.png");
                 al.add("star1.png");
-            }else if(rating> 7000 && rating< 9000){
+            }else if(rating> 7000 && rating<= 9000){
                 al.add("star0.png");
                 al.add("star1.png");
                 al.add("star2.png");
-            }else if(rating> 9000 && rating< 17001){
+            }else if(rating> 9001 && rating< 17001){
                 al.add("star0.png");
                 al.add("star1.png");
                 al.add("star2.png");
                 al.add("star3.png");
-            }else if(rating> 17002 && rating< 50000){
+            }else if(rating> 17002 && rating<= 50000){
                 al.add("star0.png");
                 al.add("star1.png");
                  al.add("star2.png");
