@@ -12,7 +12,14 @@
   BindingStyle="OracleName"
   CustomQuery="false"
   SelectAllAttributes="false"
-  PageIterMode="Full">
+  PageIterMode="Full"
+  RowClass="com.model.EmployeesViewRowImpl"
+  ComponentClass="com.model.EmployeesViewImpl"
+  RowInterface="com.model.common.EmployeesViewRow">
+  <DesignTime>
+    <Attr Name="_codeGenFlag2" Value="Access|Coll|Prog|VarAccess"/>
+    <Attr Name="_isCodegen" Value="true"/>
+  </DesignTime>
   <Variable
     Name="p_sal"
     Kind="viewcriteria"
@@ -48,7 +55,8 @@
     PrecisionRule="true"
     EntityAttrName="EmployeeId"
     EntityUsage="Employees"
-    AliasName="EMPLOYEE_ID"/>
+    AliasName="EMPLOYEE_ID"
+    IsUpdateable="while_insert"/>
   <ViewAttribute
     Name="FirstName"
     PrecisionRule="true"
@@ -190,21 +198,18 @@
         ViewAttribute="EmployeeId"
         Operator="="
         Conjunction="AND"
-        Value=""
         Required="Optional"/>
       <ViewCriteriaItem
         Name="FirstName"
         ViewAttribute="FirstName"
         Operator="STARTSWITH"
         Conjunction="AND"
-        Value=""
         Required="Optional"/>
       <ViewCriteriaItem
         Name="LastName"
         ViewAttribute="LastName"
         Operator="STARTSWITH"
         Conjunction="AND"
-        Value=""
         UpperColumns="1"
         Required="Optional"/>
       <ViewCriteriaItem
@@ -212,56 +217,101 @@
         ViewAttribute="Email"
         Operator="STARTSWITH"
         Conjunction="AND"
-        Value=""
         Required="Optional"/>
       <ViewCriteriaItem
         Name="PhoneNumber"
         ViewAttribute="PhoneNumber"
         Operator="STARTSWITH"
         Conjunction="AND"
-        Value=""
         Required="Optional"/>
       <ViewCriteriaItem
         Name="HireDate"
         ViewAttribute="HireDate"
         Operator="="
         Conjunction="AND"
-        Value=""
         Required="Optional"/>
       <ViewCriteriaItem
         Name="JobId"
         ViewAttribute="JobId"
         Operator="STARTSWITH"
         Conjunction="AND"
-        Value=""
         Required="Optional"/>
       <ViewCriteriaItem
         Name="Salary"
         ViewAttribute="Salary"
         Operator="="
         Conjunction="AND"
-        Value=""
         Required="Optional"/>
       <ViewCriteriaItem
         Name="EmployeesViewCriteria_EmployeesViewCriteria_row_0_CommissionPct"
         ViewAttribute="CommissionPct"
         Operator="="
         Conjunction="AND"
-        Value=""
         Required="Optional"/>
       <ViewCriteriaItem
         Name="ManagerId"
         ViewAttribute="ManagerId"
         Operator="="
         Conjunction="AND"
-        Value=""
         Required="Optional"/>
       <ViewCriteriaItem
         Name="EmployeesViewCriteria_EmployeesViewCriteria_row_0_DepartmentId"
         ViewAttribute="DepartmentId"
         Operator="="
         Conjunction="AND"
-        Value=""
+        Required="Optional"/>
+    </ViewCriteriaRow>
+  </ViewCriteria>
+  <ViewCriteria
+    Name="EmployeeGeneralSearchSystem"
+    ViewObjectName="com.model.EmployeesView"
+    Conjunction="AND"
+    Mode="3">
+    <Properties Name="_Props">
+      <CustomProperties>
+        <Property
+          Name="autoExecute"
+          Value="true"/>
+        <Property
+          Name="mode"
+          Value="Basic"/>
+        <Property
+          Name="allowConjunctionOverride"
+          Value="true"/>
+        <Property
+          Name="showInList"
+          Value="true"/>
+        <Property
+          Name="displayOperators"
+          Value="InAdvancedMode"/>
+      </CustomProperties>
+    </Properties>
+    <ViewCriteriaRow
+      Name="EmployeesViewCriteria1_row_0"
+      UpperColumns="1">
+      <ViewCriteriaItem
+        Name="FirstName"
+        ViewAttribute="FirstName"
+        Operator="="
+        Conjunction="AND"
+        Required="Optional"/>
+      <ViewCriteriaItem
+        Name="LastName"
+        ViewAttribute="LastName"
+        Operator="="
+        Conjunction="AND"
+        Required="Optional"/>
+      <ViewCriteriaItem
+        Name="PhoneNumber"
+        ViewAttribute="PhoneNumber"
+        Operator="="
+        Conjunction="AND"
+        Required="Optional"/>
+      <ViewCriteriaItem
+        Name="Salary"
+        ViewAttribute="Salary"
+        Operator="="
+        Conjunction="AND"
         Required="Optional"/>
     </ViewCriteriaRow>
   </ViewCriteria>

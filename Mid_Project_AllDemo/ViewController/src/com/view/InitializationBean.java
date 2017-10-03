@@ -42,4 +42,9 @@ public class InitializationBean {
     public void initialization_rowSelection() {
         System.out.println("Start process initialization row selection bean .... ");
     }
+
+    public void initialization_GeneralSearchSystem() {
+        System.out.println("Start process initialization search system bean .... ");
+        
+    }
 }

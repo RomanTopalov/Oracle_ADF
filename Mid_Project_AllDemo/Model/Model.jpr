@@ -68,6 +68,7 @@
       <string v="oracle.adfdtinternal.model.ide.settings.ADFMSettings/adfmContentSet"/>
       <string v="oracle.toplink.workbench.addin/toplinkContentSet"/>
    </list>
+   <value n="DCProject" v="true"/>
    <value n="defaultPackage" v="com.model"/>
    <value n="jbo.JpxName" v="com.model.Model"/>
    <value n="jbo.NoAttrEnumClasses" v="true"/>

@@ -1,28 +1,28 @@
 <?xml version="1.0" encoding="windows-1251" ?>
 <adfc-config xmlns="http://xmlns.oracle.com/adf/controller" version="1.2">
-  <task-flow-definition id="Render-Image-tf">
-    <default-activity>initialization_RenderImage</default-activity>
+  <task-flow-definition id="General-Search-System-tf">
+    <default-activity>initialization_General_Search-System</default-activity>
     <data-control-scope>
       <shared/>
     </data-control-scope>
-    <managed-bean id="__3">
+    <managed-bean id="__5">
       <managed-bean-name>InitializationBean</managed-bean-name>
       <managed-bean-class>com.view.InitializationBean</managed-bean-class>
       <managed-bean-scope>pageFlow</managed-bean-scope>
     </managed-bean>
     <managed-bean id="__6">
-      <managed-bean-name>RanderImage_Bean</managed-bean-name>
-      <managed-bean-class>com.view.RanderImage_Bean</managed-bean-class>
-      <managed-bean-scope>view</managed-bean-scope>
+      <managed-bean-name>OperationWithDataBean</managed-bean-name>
+      <managed-bean-class>com.view.OperationWithDataBean</managed-bean-class>
+      <managed-bean-scope>pageFlow</managed-bean-scope>
     </managed-bean>
-    <method-call id="initialization_RenderImage">
-      <method>#{pageFlowScope.InitializationBean.initialization_RenderImage}</method>
+    <method-call id="initialization_General_Search-System">
+      <method>#{pageFlowScope.InitializationBean.initialization_GeneralSearchSystem}</method>
       <outcome>
         <fixed-outcome>continue</fixed-outcome>
       </outcome>
     </method-call>
-    <view id="renderImage-v">
-      <page>/renderImage-v.jsff</page>
+    <view id="general-search-system-v">
+      <page>/general-search-system-v.jsff</page>
     </view>
     <task-flow-return id="ReturnToFirstPage">
       <outcome>
@@ -30,15 +30,15 @@
       </outcome>
     </task-flow-return>
     <control-flow-rule id="__1">
-      <from-activity-id>initialization_RenderImage</from-activity-id>
+      <from-activity-id>initialization_General_Search-System</from-activity-id>
       <control-flow-case id="__2">
         <from-outcome>continue</from-outcome>
-        <to-activity-id>renderImage-v</to-activity-id>
+        <to-activity-id>general-search-system-v</to-activity-id>
       </control-flow-case>
     </control-flow-rule>
-    <control-flow-rule id="__4">
+    <control-flow-rule id="__3">
       <from-activity-id>*</from-activity-id>
-      <control-flow-case id="__5">
+      <control-flow-case id="__4">
         <from-outcome>goToFirstPage</from-outcome>
         <to-activity-id>ReturnToFirstPage</to-activity-id>
       </control-flow-case>

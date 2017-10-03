@@ -11,6 +11,7 @@ public class RanderImage_Bean {
     
     private RichInputText employeeRating;
 
+    private List<String> eachStar ;
     public RanderImage_Bean() {
     }
 
@@ -47,11 +48,17 @@ public class RanderImage_Bean {
                  al.add("star2.png");
                 al.add("star3.png");
                  al.add("star4.png");}
-            
+//            setEachStar
         return al;
         
         }
-    
-    
-    
+
+
+    public void setEachStar(List<String> eachStar) {
+        this.eachStar = eachStar;
+    }
+
+    public List<String> getEachStar() {
+        return eachStar;
+    }
 }

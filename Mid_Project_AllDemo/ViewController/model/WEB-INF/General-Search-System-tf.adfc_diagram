@@ -5,32 +5,32 @@
    <MethodCall
       id="MethodCall2">
       <property
-         name="activityId">initialization_RenderImage</property>
+         name="activityId">initialization_General_Search-System</property>
       <property
-         name="x">282.0</property>
+         name="x">224.0</property>
       <property
          name="start">true</property>
       <property
-         name="description">&lt;html>&lt;p>&lt;b>initialization_RenderImage&lt;/b> (Default Activity)&lt;/p>&lt;p>Activity Type:  Method Call&lt;/p></property>
+         name="description">&lt;html>&lt;p>&lt;b>initialization_General_Search-System&lt;/b> (Default Activity)&lt;/p>&lt;p>Activity Type:  Method Call&lt;/p></property>
       <property
-         name="y">82.74121</property>
+         name="y">205.44238</property>
       <property
          name="exceptionHandler">false</property>
    </MethodCall>
    <View
       id="View3">
       <property
-         name="activityId">renderImage-v</property>
+         name="activityId">general-search-system-v</property>
       <property
          name="pageFragment">true</property>
       <property
-         name="x">644.0</property>
+         name="x">517.0</property>
       <property
-         name="description">&lt;html>&lt;p>&lt;b>renderImage-v&lt;/b>&lt;/p>&lt;p>Activity Type:  View&lt;/p></property>
+         name="description">&lt;html>&lt;p>&lt;b>general-search-system-v&lt;/b>&lt;/p>&lt;p>Activity Type:  View&lt;/p></property>
       <property
-         name="y">83.19531</property>
+         name="y">204.14355</property>
       <property
-         name="page">/renderImage-v.jsff</property>
+         name="page">/general-search-system-v.jsff</property>
       <property
          name="exceptionHandler">false</property>
    </View>
@@ -42,27 +42,27 @@
       <property
          name="fromOutcome">continue</property>
       <property
-         name="sdm:polyPoints">R50,323.0,82.390625,603.0,82.84473,L50</property>
+         name="sdm:polyPoints">R50,265.0,205.0918,476.0,203.79297,L50</property>
    </ControlFlowCase>
    <WildcardControlFlowRule
       id="WildcardControlFlowRule5">
       <property
          name="activityId">*</property>
       <property
-         name="x">372.0</property>
+         name="x">319.0</property>
       <property
-         name="y">188.59766</property>
+         name="y">343.29883</property>
    </WildcardControlFlowRule>
    <TaskFlowReturn
       id="TaskFlowReturn6">
       <property
          name="activityId">ReturnToFirstPage</property>
       <property
-         name="x">576.0</property>
+         name="x">546.0</property>
       <property
          name="description">&lt;html>&lt;p>&lt;b>ReturnToFirstPage&lt;/b>&lt;/p>&lt;p>Activity Type:  Task Flow Return&lt;/p>&lt;p>Outcome:  ReturnToFirstPage&lt;/p></property>
       <property
-         name="y">189.24707</property>
+         name="y">342.5459</property>
       <property
          name="finish">true</property>
       <property
@@ -76,6 +76,6 @@
       <property
          name="fromOutcome">goToFirstPage</property>
       <property
-         name="sdm:polyPoints">R50,408.0,188.74707,535.0,188.89648,L50</property>
+         name="sdm:polyPoints">R50,355.0,343.44824,505.0,342.1953,L50</property>
    </ControlFlowCase>
 </SDM>

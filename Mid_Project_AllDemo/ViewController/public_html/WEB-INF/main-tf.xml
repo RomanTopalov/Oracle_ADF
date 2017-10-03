@@ -60,6 +60,10 @@
         <expression>#{pageFlowScope.inOperationType=='row-selection'}</expression>
         <outcome>row-selection</outcome>
       </case>
+      <case id="__26">
+        <expression>#{pageFlowScope.inOperationType=='general-search-system'}</expression>
+        <outcome>general-search-system</outcome>
+      </case>
       <default-outcome>essential</default-outcome>
     </router>
     <task-flow-call id="Essential-tf">
@@ -116,6 +120,12 @@
         <id>RowSelection-tf</id>
       </task-flow-reference>
     </task-flow-call>
+    <task-flow-call id="General-Search-System-tf">
+      <task-flow-reference>
+        <document>/WEB-INF/General-Search-System-tf.xml</document>
+        <id>General-Search-System-tf</id>
+      </task-flow-reference>
+    </task-flow-call>
     <control-flow-rule id="__1">
       <from-activity-id>index</from-activity-id>
       <control-flow-case id="__2">
@@ -160,6 +170,10 @@
       <control-flow-case id="__23">
         <from-outcome>row-selection</from-outcome>
         <to-activity-id>RowSelection-tf</to-activity-id>
+      </control-flow-case>
+      <control-flow-case id="__25">
+        <from-outcome>general-search-system</from-outcome>
+        <to-activity-id>General-Search-System-tf</to-activity-id>
       </control-flow-case>
     </control-flow-rule>
     <use-page-fragments/>

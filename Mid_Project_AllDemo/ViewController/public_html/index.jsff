@@ -26,6 +26,8 @@
                            action="#{pageFlowScope.ButtonActionBean.goTo_RenderImage}"/>
                 <af:button text="Search Page" id="b8" inlineStyle="margin-left:5px;" action="#{pageFlowScope.ButtonActionBean.goTo_SearchPage}"/>
                 <af:button text="Row Selection" id="b9" action="#{pageFlowScope.ButtonActionBean.goTo_RowSelection}" inlineStyle="margin-left:5px;"/>
+                <af:button text="General Search System" id="b10" inlineStyle="margin-left:5px;"
+                           action="#{pageFlowScope.ButtonActionBean.goTo_GeneralSearchSystem}"/>
             </af:group>
         </f:facet>
     </af:decorativeBox>

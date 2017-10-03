@@ -21,6 +21,7 @@
     <page path="/renderImage-v.jsff" usageId="com_view_renderImage_vPageDef"/>
     <page path="/searchPage_v.jsff" usageId="com_view_searchPage_vPageDef"/>
     <page path="/rowSelection-v.jsff" usageId="com_view_rowSelection_vPageDef"/>
+    <page path="/general-search-system-v.jsff" usageId="com_view_general_search_system_vPageDef"/>
   </pageMap>
   <pageDefinitionUsages>
     <page id="com_view_essential_bodyPageDef" path="com.view.pageDefs.essential_bodyPageDef"/>
@@ -35,8 +36,10 @@
     <page id="com_view_renderImage_vPageDef" path="com.view.pageDefs.renderImage_vPageDef"/>
     <page id="com_view_searchPage_vPageDef" path="com.view.pageDefs.searchPage_vPageDef"/>
     <page id="com_view_rowSelection_vPageDef" path="com.view.pageDefs.rowSelection_vPageDef"/>
+    <page id="com_view_general_search_system_vPageDef" path="com.view.pageDefs.general_search_system_vPageDef"/>
   </pageDefinitionUsages>
   <dataControlUsages>
+    <dc id="EmployeePojo" path="com.model.EmployeePojo"/>
     <dc id="TextEssentialExample" path="com.model.TextEssentialExample"/>
     <BC4JDataControl id="AppModuleDataControl" Package="com.model"
                      FactoryClass="oracle.adf.model.bc4j.DataControlFactoryImpl" SupportsTransactions="true"
@@ -49,6 +52,11 @@
                      SupportsSortCollection="true" Configuration="AppModuleLocal" syncMode="Immediate"
                      xmlns="http://xmlns.oracle.com/adfm/datacontrol"/>
     <BC4JDataControl id="AppModuleDataControl2" Package="com.model"
+                     FactoryClass="oracle.adf.model.bc4j.DataControlFactoryImpl" SupportsTransactions="true"
+                     SupportsFindMode="true" SupportsRangesize="true" SupportsResetState="true"
+                     SupportsSortCollection="true" Configuration="AppModuleLocal" syncMode="Immediate"
+                     xmlns="http://xmlns.oracle.com/adfm/datacontrol"/>
+    <BC4JDataControl id="AppModuleDataControl3" Package="com.model"
                      FactoryClass="oracle.adf.model.bc4j.DataControlFactoryImpl" SupportsTransactions="true"
                      SupportsFindMode="true" SupportsRangesize="true" SupportsResetState="true"
                      SupportsSortCollection="true" Configuration="AppModuleLocal" syncMode="Immediate"

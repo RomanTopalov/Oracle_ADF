@@ -35,8 +35,8 @@
         <af:convertNumber groupingUsed="false" pattern="#{bindings.Salary.format}"/>
       </af:inputText>
       <af:panelGroupLayout id="pgl2" layout="horizontal">
-        <af:iterator id="i1" value="#{requestScope.RanderImage_Bean.starRating}" var="eachStar">
-          <af:image id="i2" source="../#{requestScope.eachStar}" inlineStyle="width:30px;height:30px;"/>
+        <af:iterator id="i1" value="#{viewScope.RanderImage_Bean.starRating}" var="eachStar">
+          <af:image id="i2" source="#{eachStar}" inlineStyle="width:30px;height:30px;"/>
         </af:iterator>
       </af:panelGroupLayout>
       <f:facet name="footer">

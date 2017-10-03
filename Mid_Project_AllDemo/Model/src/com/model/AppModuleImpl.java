@@ -37,8 +37,8 @@ public class AppModuleImpl extends ApplicationModuleImpl implements AppModule {
      * Container's getter for EmployeesView1.
      * @return EmployeesView1
      */
-    public ViewObjectImpl getEmployeesView1() {
-        return (ViewObjectImpl) findViewObject("EmployeesView1");
+    public EmployeesViewImpl getEmployeesView1() {
+        return (EmployeesViewImpl) findViewObject("EmployeesView1");
     }
 
     /**
@@ -61,16 +61,16 @@ public class AppModuleImpl extends ApplicationModuleImpl implements AppModule {
      * Container's getter for EmployeesView2.
      * @return EmployeesView2
      */
-    public ViewObjectImpl getEmployeesView2() {
-        return (ViewObjectImpl) findViewObject("EmployeesView2");
+    public EmployeesViewImpl getEmployeesView2() {
+        return (EmployeesViewImpl) findViewObject("EmployeesView2");
     }
 
     /**
      * Container's getter for EmployeesView3.
      * @return EmployeesView3
      */
-    public ViewObjectImpl getEmployeesView3() {
-        return (ViewObjectImpl) findViewObject("EmployeesView3");
+    public EmployeesViewImpl getEmployeesView3() {
+        return (EmployeesViewImpl) findViewObject("EmployeesView3");
     }
 
     /**
