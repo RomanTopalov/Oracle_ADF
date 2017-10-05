@@ -2,7 +2,46 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="738c8ec0-e6d6-47b3-8fa5-27869b43241f" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Mid_Project_AllDemo/.data/ViewController/00000000/00000003.jdb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Mid_Project_AllDemo/Model/src/com/model/EmployeesImpl.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Mid_Project_AllDemo/ViewController/classes/.wlsjsps/jsp_servlet/__index_jsff.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Mid_Project_AllDemo/ViewController/classes/.wlsjsps/jsp_servlet/__index_jspx.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Mid_Project_AllDemo/ViewController/classes/.wlsjsps/jsp_servlet/__renderimage_45_v_jsff.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Mid_Project_AllDemo/ViewController/classes/.wlsjsps/jsp_servlet/__task_45_flow_45_v_jsff.class" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Mid_Project_AllDemo/.data/00000000/00000007.jdb" afterPath="$PROJECT_DIR$/Mid_Project_AllDemo/.data/00000000/00000007.jdb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Mid_Project_AllDemo/.data/Model/00000000/00000000.jdb" afterPath="$PROJECT_DIR$/Mid_Project_AllDemo/.data/Model/00000000/00000000.jdb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Mid_Project_AllDemo/.data/ViewController/00000000/00000004.jdb" afterPath="$PROJECT_DIR$/Mid_Project_AllDemo/.data/ViewController/00000000/00000004.jdb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Mid_Project_AllDemo/Model/adfmsrc/com/model/DataControls.dcx" afterPath="$PROJECT_DIR$/Mid_Project_AllDemo/Model/adfmsrc/com/model/DataControls.dcx" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Mid_Project_AllDemo/Model/classes/.data/Model.cdi" afterPath="$PROJECT_DIR$/Mid_Project_AllDemo/Model/classes/.data/Model.cdi" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Mid_Project_AllDemo/Model/classes/com/model/AppModuleImpl.class" afterPath="$PROJECT_DIR$/Mid_Project_AllDemo/Model/classes/com/model/AppModuleImpl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Mid_Project_AllDemo/Model/classes/com/model/DataControls.dcx" afterPath="$PROJECT_DIR$/Mid_Project_AllDemo/Model/classes/com/model/DataControls.dcx" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Mid_Project_AllDemo/Model/classes/com/model/EmployeesImpl$AttributesEnum.class" afterPath="$PROJECT_DIR$/Mid_Project_AllDemo/Model/classes/com/model/EmployeesImpl$AttributesEnum.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Mid_Project_AllDemo/Model/classes/com/model/EmployeesImpl.class" afterPath="$PROJECT_DIR$/Mid_Project_AllDemo/Model/classes/com/model/EmployeesImpl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Mid_Project_AllDemo/ViewController/classes/.data/ViewController.cdi" afterPath="$PROJECT_DIR$/Mid_Project_AllDemo/ViewController/classes/.data/ViewController.cdi" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Mid_Project_AllDemo/ViewController/classes/com/view/ButtonActionBean.class" afterPath="$PROJECT_DIR$/Mid_Project_AllDemo/ViewController/classes/com/view/ButtonActionBean.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Mid_Project_AllDemo/ViewController/classes/com/view/InitializationBean.class" afterPath="$PROJECT_DIR$/Mid_Project_AllDemo/ViewController/classes/com/view/InitializationBean.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Mid_Project_AllDemo/ViewController/classes/com/view/RanderImage_Bean.class" afterPath="$PROJECT_DIR$/Mid_Project_AllDemo/ViewController/classes/com/view/RanderImage_Bean.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Mid_Project_AllDemo/Model/Model.jpr" afterPath="$PROJECT_DIR$/Mid_Project_AllDemo/Model/Model.jpr" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Mid_Project_AllDemo/Model/classes/com/model/Employees.xml" afterPath="$PROJECT_DIR$/Mid_Project_AllDemo/Model/classes/com/model/Employees.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Mid_Project_AllDemo/Model/classes/com/model/EmployeesView.xml" afterPath="$PROJECT_DIR$/Mid_Project_AllDemo/Model/classes/com/model/EmployeesView.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Mid_Project_AllDemo/Model/classes/com/model/ModelBundle.properties" afterPath="$PROJECT_DIR$/Mid_Project_AllDemo/Model/classes/com/model/ModelBundle.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Mid_Project_AllDemo/Model/src/com/model/AppModuleImpl.java" afterPath="$PROJECT_DIR$/Mid_Project_AllDemo/Model/src/com/model/AppModuleImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Mid_Project_AllDemo/Model/src/com/model/Employees.xml" afterPath="$PROJECT_DIR$/Mid_Project_AllDemo/Model/src/com/model/Employees.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Mid_Project_AllDemo/Model/src/com/model/EmployeesView.xml" afterPath="$PROJECT_DIR$/Mid_Project_AllDemo/Model/src/com/model/EmployeesView.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Mid_Project_AllDemo/Model/src/com/model/ModelBundle.properties" afterPath="$PROJECT_DIR$/Mid_Project_AllDemo/Model/src/com/model/ModelBundle.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Mid_Project_AllDemo/ViewController/adfmsrc/com/view/DataBindings.cpx" afterPath="$PROJECT_DIR$/Mid_Project_AllDemo/ViewController/adfmsrc/com/view/DataBindings.cpx" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Mid_Project_AllDemo/ViewController/classes/META-INF/task-flow-registry.xml" afterPath="$PROJECT_DIR$/Mid_Project_AllDemo/ViewController/classes/META-INF/task-flow-registry.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Mid_Project_AllDemo/ViewController/classes/com/view/DataBindings.cpx" afterPath="$PROJECT_DIR$/Mid_Project_AllDemo/ViewController/classes/com/view/DataBindings.cpx" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Mid_Project_AllDemo/ViewController/model/WEB-INF/Render-Image-tf.adfc_diagram" afterPath="$PROJECT_DIR$/Mid_Project_AllDemo/ViewController/model/WEB-INF/Render-Image-tf.adfc_diagram" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Mid_Project_AllDemo/ViewController/model/WEB-INF/main-tf.adfc_diagram" afterPath="$PROJECT_DIR$/Mid_Project_AllDemo/ViewController/model/WEB-INF/main-tf.adfc_diagram" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Mid_Project_AllDemo/ViewController/public_html/WEB-INF/Render-Image-tf.xml" afterPath="$PROJECT_DIR$/Mid_Project_AllDemo/ViewController/public_html/WEB-INF/Render-Image-tf.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Mid_Project_AllDemo/ViewController/public_html/WEB-INF/main-tf.xml" afterPath="$PROJECT_DIR$/Mid_Project_AllDemo/ViewController/public_html/WEB-INF/main-tf.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Mid_Project_AllDemo/ViewController/public_html/index.jsff" afterPath="$PROJECT_DIR$/Mid_Project_AllDemo/ViewController/public_html/index.jsff" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Mid_Project_AllDemo/ViewController/public_html/renderImage-v.jsff" afterPath="$PROJECT_DIR$/Mid_Project_AllDemo/ViewController/public_html/renderImage-v.jsff" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Mid_Project_AllDemo/ViewController/src/com/view/ButtonActionBean.java" afterPath="$PROJECT_DIR$/Mid_Project_AllDemo/ViewController/src/com/view/ButtonActionBean.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Mid_Project_AllDemo/ViewController/src/com/view/InitializationBean.java" afterPath="$PROJECT_DIR$/Mid_Project_AllDemo/ViewController/src/com/view/InitializationBean.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Mid_Project_AllDemo/ViewController/src/com/view/RanderImage_Bean.java" afterPath="$PROJECT_DIR$/Mid_Project_AllDemo/ViewController/src/com/view/RanderImage_Bean.java" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -24,7 +63,7 @@
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
-              <caret line="0" column="64" lean-forward="false" selection-start-line="0" selection-start-column="64" selection-end-line="0" selection-end-column="64" />
+              <caret line="0" column="23" lean-forward="false" selection-start-line="0" selection-start-column="23" selection-end-line="0" selection-end-column="23" />
               <folding />
             </state>
           </provider>
@@ -79,6 +118,64 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="Oracle_ADF_Projects" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Oracle_ADF_Projects" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Oracle_ADF_Projects" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Mid_Project_AllDemo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Oracle_ADF_Projects" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Oracle_ADF_Projects" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Mid_Project_AllDemo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ViewController" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Oracle_ADF_Projects" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Oracle_ADF_Projects" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Mid_Project_AllDemo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ViewController" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="model" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WEB-INF" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -178,15 +275,15 @@
       <workItem from="1506073810599" duration="78000" />
       <workItem from="1506457990436" duration="4000" />
       <workItem from="1506935386294" duration="137000" />
-      <workItem from="1507024548173" duration="120000" />
+      <workItem from="1507024548173" duration="880000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2064000" />
+    <option name="totallyTimeSpent" value="2824000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="1" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="0" />
     <editor active="false" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -269,7 +366,7 @@
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="64" lean-forward="false" selection-start-line="0" selection-start-column="64" selection-end-line="0" selection-end-column="64" />
+          <caret line="0" column="23" lean-forward="false" selection-start-line="0" selection-start-column="23" selection-end-line="0" selection-end-column="23" />
           <folding />
         </state>
       </provider>

@@ -86,9 +86,9 @@ public class EmployeesViewRowImpl extends ViewRowImpl implements EmployeesViewRo
      * Gets Employees entity object.
      * @return the Employees
      */
-    public EmployeesImpl getEmployees() {
-        return (EmployeesImpl) getEntity(ENTITY_EMPLOYEES);
-    }
+//    public EmployeesImpl getEmployees() {
+//        return (EmployeesImpl) getEntity(ENTITY_EMPLOYEES);
+//    }
 
     /**
      * Gets the attribute value for EMPLOYEE_ID using the alias name EmployeeId.

@@ -13,8 +13,7 @@
           <f:facet name="menus"/>
           <f:facet name="toolbar">
             <af:toolbar id="t2">
-              <af:button actionListener="#{bindings.Commit.execute}" text="Commit"
-                         disabled="#{!bindings.Commit.enabled}" id="b2"/>
+              <af:button actionListener="#{bindings.Commit.execute}" text="Commit" id="b2"/>
             </af:toolbar>
           </f:facet>
           <f:facet name="statusbar"/>

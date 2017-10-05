@@ -1,14 +1,30 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <jsp:root xmlns:jsp="http://java.sun.com/JSP/Page" version="2.1" xmlns:af="http://xmlns.oracle.com/adf/faces/rich"
           xmlns:f="http://java.sun.com/jsf/core">
-  <af:group id="g1">
-    <af:button text="Go to Welcome Page" id="b1" action="#{pageFlowScope.ButtonActionBean.goTo_IndexPage}"/>
-   </af:group>
-  <af:panelStretchLayout id="psl1" inlineStyle="width:815px; height:463px;">
+           <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+ 
+      <af:resource type="javascript">
+     function clearMdnName(event) {
+       var component = event.getSource();
+       component.setProperty('value','');
+     }
+   </af:resource>
+  
+  <af:panelStretchLayout id="psl1">
     <f:facet name="start"/>
     <f:facet name="end"/>
-    <f:facet name="top"/>
+    <f:facet name="top">
+      <af:group id="g2">
+        <af:button text="Go to welcome page" id="b1" action="goToFirstPage" inlineStyle="width:170px;margin:10px;"/>
+      </af:group>
+    </f:facet>
     <f:facet name="bottom"/>
-    <f:facet name="center"/>
+    <f:facet name="center">
+      <af:group id="g1">
+        <af:inputText label="Click on a button to clear the text " id="it1">
+          <af:clientListener method="clearMdnName" type="focus"/>
+        </af:inputText>
+      </af:group>
+    </f:facet>
   </af:panelStretchLayout>
 </jsp:root>

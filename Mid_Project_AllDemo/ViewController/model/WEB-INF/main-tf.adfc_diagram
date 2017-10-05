@@ -258,7 +258,7 @@
       <property
          name="fromOutcome">search-page</property>
       <property
-         name="sdm:polyPoints">B56,306.5,353.7412,448.0,461.14355,T50</property>
+         name="sdm:polyPoints">B61,310.0,353.7412,448.0,461.14355,T50</property>
    </ControlFlowCase>
    <TaskFlowCall
       id="TaskFlowCall25">

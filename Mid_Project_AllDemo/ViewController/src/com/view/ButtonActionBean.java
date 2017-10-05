@@ -1,5 +1,9 @@
 package com.view;
 
+import javax.faces.application.FacesMessage;
+import javax.faces.context.FacesContext;
+import javax.faces.event.ActionEvent;
+
 public class ButtonActionBean {
     public ButtonActionBean() {
     }
@@ -68,5 +72,19 @@ public class ButtonActionBean {
         MainProcessBean mainProcessBean = new MainProcessBean();
         mainProcessBean.putValue("general-search-system");
         return "goToRouter";
+    }
+
+////    public void buttonAction_js_v(ActionEvent actionEvent) {
+//        FacesMessage msg = new FacesMessage("Button Action called");
+//        FacesContext context = FacesContext.getCurrentInstance();
+//        context.addMessage(null, msg);
+//    }
+
+
+    public void buttonAction_js_v(ActionEvent actionEvent) {
+        FacesMessage msg = new FacesMessage("Button Action called");
+        FacesContext context = FacesContext.getCurrentInstance();
+        context.addMessage(null, msg);
+//        return "" ;
     }
 }
